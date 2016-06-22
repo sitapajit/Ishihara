@@ -50,7 +50,11 @@ class ViewController: UIViewController {
         }else{
             intIndex = 0
         }
-         print("intIndex ==> \(intIndex)")
+        print("intIndex ==> \(intIndex)")
+        
+        ishiharaImageView.image = UIImage(named: arrayImage[intIndex])
+        
+        
         
     }   //AnswerButton
     
